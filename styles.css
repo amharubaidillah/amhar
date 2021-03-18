@@ -30,6 +30,13 @@ li{
     font-size: 24px;
     line-height: 28px;
 }
+li:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
 /* tengah */
 .main{
     background-color: #e5e5e5;
@@ -59,28 +66,35 @@ span{
     color: #7694CE;
 
 }
-.login{
-    text-align: center;
-}
 .login h2{
     margin-top: 120px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: center;
     font-weight: bold;
     font-size: 48px;
     font-family: "Roboto";
+}
+a{
+    margin-left: 43%;
+    background-color: #8D76CE;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
+    font-weight: bold;
 
 }
-.main-submit{
-    font-size: 36px;
-    background-color: #8D76CE;
-    border-radius: 15px;
-    color: #fff;
-    height: 50px;
-    border: none;
-    width: 12%;
-    margin-bottom: 100px;
+a:hover{
+    cursor: pointer;
+    background-color: #7694CE;
+    color: black;
+
 }
+.login{
+    margin-bottom: 110px;
+}
+
 .cat h2{
     font-size: 36px;
     font-weight: bold;
@@ -88,8 +102,8 @@ span{
     margin-bottom: 20px;
 }
 img{
-    width: 450px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     margin-left: 50px;
 }
 .conten-cat1{
@@ -104,13 +118,14 @@ img{
     text-align: center;
     margin-top: 100px;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 24px;
     margin-bottom: 30px;
 }
-.form-isi{
+.form-isi p{
     font-size: 24px;
     font-weight: bold;
-    margin-left: 600px;
+    margin: auto;
+    margin-left: 340px;
 }
 input, textarea{
     width: 550px;
@@ -119,13 +134,14 @@ input, textarea{
     margin-bottom: 10px;
     border-radius: 15px;
     border: 2px solid grey;
+    margin-left: 340px;
 
 }
 textarea{
     height: 140px;
 }
 button{
-    width: 30%;
+    width: 550px;
     color: #fff;
     background-color: #8D76CE;
     border: none;
@@ -134,7 +150,8 @@ button{
     margin-bottom: 130px;
     font-weight: bold;
     font-size: 24px;
-    margin-left: 600px;
+    margin-left: 340px;
+
 }
 footer{
     background-color: #8D76CE;
